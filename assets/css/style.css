@@ -1,0 +1,65 @@
+.wrapper{
+	background-color: #011936;
+	margin: auto;
+	font-family: 'Lobster Two', cursive;
+
+}
+.header{
+	max-width: 100%;
+	height: 16%;
+	padding: 0;
+	margin: 1px;
+	background-color: #C2EABD;
+	background-image: url("../images/hangman1.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+.mainBody{
+	height: 80%;
+	margin: 20px;
+
+}
+.play{
+	border:2px dotted #C2EABD;
+	color: #C2EABD;
+	height: 100%;
+}
+.play-header{
+	text-align: center;
+	height: 15%;
+	margin: 30px 0;
+
+}
+
+.myPanel{
+	float: left;
+	width: 32%;
+	margin:5px;
+}
+
+.pHead{
+	padding: 5px;
+	text-align: center;
+	
+	font-weight: 800;
+}
+.pBody{
+	color: #C2EABD;
+	background-color: #011936;
+	text-align: center;
+	font-weight: 800;
+
+}
+
+h2,h3,h4,p{
+	color: #B8CEE0; 
+
+}
+footer{
+	background-color:#C2EABD;
+	color: #011936;
+	height: 15px; 
+	height: 5%;
+	text-align: center;
+}
