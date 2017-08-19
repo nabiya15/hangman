@@ -4,7 +4,7 @@
   var win=0;
   var guessCount;
   var maxGuess;
-  var guessList; //displays all the keys user
+  var guessList=0; //displays all the keys user
   var answer;
   var match;
   var chosenWord;
@@ -14,9 +14,7 @@
   function reset (){
    guessCount=0;
    maxGuess=6;
-   guesslist=[];
-   
-   document.getElementById("guessedWords").innerHTML.guesslist;
+   guessList=[];
    answer=[];
    isWinner=false;
    isLooser=false;
@@ -49,7 +47,6 @@ function updateGame(){
 updateGame();
 
 document.onkeyup=function (keypress) {
-
   var userGuess=keypress.key;
 
   if((keypress.keyCode>=65 && keypress.keyCode<=90)|| keypress.keyCode==32)
@@ -68,11 +65,11 @@ document.onkeyup=function (keypress) {
     answer[j]=userGuess;
 
   }
-}
+  }
 
-if(!match){
-  maxGuess--;
-}
+  if(!match){
+    maxGuess--;
+  }
 
 updateGame();
 
